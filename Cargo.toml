@@ -1,0 +1,10 @@
+[package]
+name = "test-disable-thread"
+version = "0.1.0"
+authors = ["bo <bo@nearprotocol.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocksdb = { git = "https://github.com/developerfred/rust-rocksdb", branch="issue/447-export-and-set" }
