@@ -186,7 +186,7 @@ dependencies = [
 [[package]]
 name = "librocksdb-sys"
 version = "6.10.2"
-source = "git+https://github.com/developerfred/rust-rocksdb?branch=issue/447-export-and-set#44592812fd12cc2ea5de55af7c8d9bfdeacac692"
+source = "git+https://github.com/developerfred/rust-rocksdb?branch=issue/447-test-env-default#a2cc8874a39e06a58b159bf842aeeb8230e934ca"
 dependencies = [
  "bindgen",
  "cc",
@@ -270,7 +270,7 @@ checksum = "26412eb97c6b088a6997e05f69403a802a92d520de2f8e63c2b65f9e0f47c4e8"
 [[package]]
 name = "rocksdb"
 version = "0.14.0"
-source = "git+https://github.com/developerfred/rust-rocksdb?branch=issue/447-export-and-set#44592812fd12cc2ea5de55af7c8d9bfdeacac692"
+source = "git+https://github.com/developerfred/rust-rocksdb?branch=issue/447-test-env-default#a2cc8874a39e06a58b159bf842aeeb8230e934ca"
 dependencies = [
  "libc",
  "librocksdb-sys",

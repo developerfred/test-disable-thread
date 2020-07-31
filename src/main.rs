@@ -24,12 +24,12 @@ fn main() {
     env.set_low_priority_background_threads(0);
     opts.set_env(&env);
 
+    // let mut env_and_options = Options::env_default(&opts, &env);
+
     // open db
     println!("disable all threads");
     let db = DB::open(&opts, &path).unwrap();
-    env.set_bottom_priority_background_threads(0);
-    env.set_high_priority_background_threads(0);
-    env.set_low_priority_background_threads(0);
+    
     // write a lot
     let mut batch = WriteBatch::default();
     for i in 0..1_00000000 {

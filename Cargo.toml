@@ -7,4 +7,4 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rocksdb = { git = "https://github.com/developerfred/rust-rocksdb", branch="issue/447-export-and-set" }
+rocksdb = { git = "https://github.com/developerfred/rust-rocksdb", branch="issue/447-test-env-default" }
